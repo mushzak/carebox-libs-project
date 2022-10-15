@@ -3,6 +3,16 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "carebox-details": [
+        "dist/carebox-details/carebox-details",
+        "dist/carebox-details"
+      ],
+      "carebox-search": [
+        "dist/carebox-search/carebox-search",
+        "dist/carebox-search"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
